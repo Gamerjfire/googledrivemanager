@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: googledrivemanager
+  h2:
+    console:
+      enabled: true
+server:
+  servlet:
+    context-path: /test
+  port: 8081
+logging:
+  level:
+    org:
+      springframework:
+        web: TRACE
